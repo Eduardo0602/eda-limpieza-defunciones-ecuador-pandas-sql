@@ -1,0 +1,40 @@
+# DATOS
+data/raw/
+data/processed/*
+!data/processed/.gitkeep
+data/external/*
+!data/external/.gitkeep
+*.csv
+*.xlsx
+*.xls
+*.sav
+*.sps
+
+# PYTHON
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+*.egg
+
+# JUPYTER
+.ipynb_checkpoints/
+
+# SISTEMA OPERATIVO
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# ENTORNO
+.env
+.venv/
+env/
+venv/
+.vscode/
+
+# MODELOS
+*.pkl
+*.pickle
+*.h5
+*.pt
+*.pth
