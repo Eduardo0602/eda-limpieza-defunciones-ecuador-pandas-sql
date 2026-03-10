@@ -49,8 +49,8 @@ reproducible, y análisis con Pandas + SQL.
 ## ESTADO ACTUAL
 
 - **Última sesión:** [10/03/2026]
-- **Próximo paso exacto:** Configurar requirements.txt, hacer primer commit, crear repositorio en GitHub y push inicial
-- **Bloqueado en:** Nada por ahora
+- **Próximo paso exacto:** Crear notebook 01_auditoria_calidad.ipynb en Jupyter — inspección inicial del dataset con info(), describe(), shape y mapa de nulos
+- **Bloqueado en:** Nada
 
 ---
 
