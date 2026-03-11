@@ -32,7 +32,7 @@ env/
 venv/
 .vscode/
 
-#CLAUDE CODE
+#AGENTE
 CLAUDE.md
 
 # MODELOS
