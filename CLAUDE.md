@@ -49,7 +49,7 @@ reproducible, y análisis con Pandas + SQL.
 ## ESTADO ACTUAL
 
 - **Última sesión:** [10/03/2026]
-- **Próximo paso exacto:** Crear notebook 01_auditoria_calidad.ipynb en Jupyter — inspección inicial del dataset con info(), describe(), shape y mapa de nulos
+- **Próximo paso exacto:** Crear notebook 02_pipeline_limpieza.ipynb — resolver los 9 problemas de calidad en orden de severidad
 - **Bloqueado en:** Nada
 
 ---
