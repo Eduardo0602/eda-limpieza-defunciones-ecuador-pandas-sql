@@ -29,9 +29,9 @@ Los datos no se incluyen en el repositorio; se descargan del portal del INEC.
 
 **Nulos estructurales frente a datos faltantes.** `muj_fertil`, `mor_viol` y `lug_viol` solo aplican a subpoblaciones (mujeres en edad fértil, muertes violentas). Sus nulos representan correctamente "no aplica" y se conservaron.
 
-**Elección del coeficiente de correlación.** Se usó Spearman ($\rho_s$) en lugar de Pearson ($r$): las variables numéricas son discretas (componentes temporales) con valores atípicos, y Spearman no requiere normalidad ni se limita a relaciones lineales. Los códigos CIE-10 (`cod_causa103`, `cod_causa80`, `cod_causa67B`) se excluyeron de la matriz: son etiquetas nominales, no magnitudes.
+**Elección del coeficiente de correlación.** Se usó Spearman ($`\rho_s`$) en lugar de Pearson ($`r`$): las variables numéricas son discretas (componentes temporales) con valores atípicos, y Spearman no requiere normalidad ni se limita a relaciones lineales. Los códigos CIE-10 (`cod_causa103`, `cod_causa80`, `cod_causa67B`) se excluyeron de la matriz: son etiquetas nominales, no magnitudes.
 
-**Estimación de densidad.** La edad se muestra con histograma y una curva de densidad por núcleos, $\hat{f}(x) = \frac{1}{nh}\sum_{i=1}^{n} K\left(\frac{x - x_i}{h}\right)$. El eje se acotó a $[-5, 125]$ para no mostrar la densidad artificial en edades negativas que genera el núcleo gaussiano cerca de 0.
+**Estimación de densidad.** La edad se muestra con histograma y una curva de densidad por núcleos, $`\hat{f}(x) = \frac{1}{nh}\sum_{i=1}^{n} K\left(\frac{x - x_i}{h}\right)`$. El eje se acotó a $`[-5, 125]`$ para no mostrar la densidad artificial en edades negativas que genera el núcleo gaussiano cerca de 0.
 
 ## Resultados
 
