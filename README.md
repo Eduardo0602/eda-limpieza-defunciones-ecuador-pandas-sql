@@ -4,7 +4,7 @@ Auditoría de calidad, limpieza reproducible y exploración con SQL del Registro
 
 > **English summary.** Data-quality audit, reproducible cleaning pipeline and SQL-based exploration of Ecuador's official 2021 death registry (107,648 records, 45 columns). The audit found 369,685 disguised missing values, wrong data types, impossible dates and semantic duplicates; every cleaning decision is documented and justified. Correlations use Spearman with nominal ICD-10 codes excluded, because the statistical tool is chosen before it is applied.
 
-![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas) ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0) ![Licencia](https://img.shields.io/badge/licencia-MIT-green) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Eduardo0602/eda-limpieza-defunciones-ecuador-pandas-sql/blob/main/notebooks/01_auditoria_calidad.ipynb)
+![Python](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white) ![pandas](https://img.shields.io/badge/pandas-150458?logo=pandas) ![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite) ![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0) ![Licencia](https://img.shields.io/badge/licencia-MIT-green) [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/Eduardo0602/eda-limpieza-defunciones-ecuador-pandas-sql/blob/master/notebooks/01_auditoria_calidad.ipynb)
 
 ## El problema
 
